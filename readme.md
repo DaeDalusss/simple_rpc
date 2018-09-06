@@ -1,10 +1,11 @@
-#大标题
+## Project
+### 简介
     自定义搭建实现 rpc框架
     基于netty 和 zookeeper
     整个rpc的调用过程 相当于 feign的调用过程, 这里zookeeper 则充当了 eureka 等同的角色
-    遥想当年的 hessian 爬虫，无非就是一个 rpc调用处理而已，而且当年的没有做服务注册的负载均衡；所有的结果进出都是在单独的 队列服务； 队列服务做备份轮询而已
-   
-    
+    遥想当年的 hessian 爬虫，无非就是一个 rpc调用处理而已，而且当年的没有做服务注册的负载均衡；所有的结果进出都是在单独的 队列服务； 队列服务做备份轮     询而已
+
+     
 ## 框架结构
     整体的框架内容包括 
         rpc_client 用于打成jar 供客户端 rpc_sample_app 调用 (相当于eureka.jar)
@@ -24,7 +25,5 @@
     运行 rpc_sample_app HelloServiceTest 的test 方法
 
 ## 启动以及调用的过程
-    ![image](https://github.com/DaeDalusss/simple_rpc/blob/master/resc/rpc.png)
-    ![index](https://github.com/linwh8/ModernWebPrograming/raw/master/My_image/recipe_index.png)
-    
-        
+   ![image](https://github.com/DaeDalusss/simple_rpc/blob/master/resc/rpc.png)
+   ![index](https://github.com/linwh8/ModernWebPrograming/raw/master/My_image/recipe_index.png)
