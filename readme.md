@@ -24,6 +24,6 @@
     运行 rpc_sample_app HelloServiceTest 的test 方法
 
 ## 启动以及调用的过程
-    ![image][resc/rpc.png]
+    ![image][/resc/rpc.png]
     
         
